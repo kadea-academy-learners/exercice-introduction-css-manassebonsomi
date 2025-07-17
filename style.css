@@ -1,3 +1,121 @@
+/* CORPS */
+body
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* TETE DU CORPS */
+header
+{
+    background-color: #dcdcdc;
+    height: 115px;
+    padding-bottom: 1px; 
+    text-align: center;
+}
+
+.info_header
+{
+    padding: 20px 3px; 
+}
+
+/* INFO PRINCIPAL */
+.principal
+{
+    text-align: justify;
+    background-color: #dcdcdc ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.block_fig
+{
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.block_fig figure
+{
+    padding-bottom: 20px;
+}
+
+.block_fig figure img
+{
+    height: 550px;
+    width: 950px;
+    padding-bottom: 10px;
+}
+
+.legende
+{
+    font-size: 0.9rem;
+    color: #2e2b2b;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #222;
+    margin-bottom: 40px;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+.content
+{
+    padding-left: 31%;
+    padding-right: 31%;
+    max-width: 800px;
+}
+
+.content ul li
+{
+    padding: 10px 3px;
+    color: #444;
+}
+
+.info
+{
+    padding-left: 30%;
+    padding-right: 31%;
+    max-width: 800px;
+    margin-left: 50px;
+}
 
 
+.quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #444;  
+}
 
+.quote-author {
+    text-align: left;
+    font-weight: bold;
+    color: #464444;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+footer
+{
+    padding-bottom: 5px;
+    background-color: #dcdcdc ;
+    padding-top: 1px;
+    text-align: center;
+    color: #333;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
